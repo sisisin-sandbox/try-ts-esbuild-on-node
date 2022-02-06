@@ -1,6 +1,9 @@
 {
   "name": "server",
   "packageManager": "yarn@3.1.1",
+  "scripts": {
+    "clean": "rm -rf dist"
+  },
   "dependencies": {
     "express": "^4.17.2",
     "mod_a": "workspace:*"
